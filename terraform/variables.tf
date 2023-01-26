@@ -1,10 +1,6 @@
-variable "access_key" {
-  default = "AKIAXN3TMI7VQOUR2BMT"
-}
+variable "access_key" {}
 
-variable "secret_key" {
-  default = "oOckjQOTNRNjsIN9eMk8nupuyre2p9oBovZqWgMd"
-}
+variable "secret_key" {}
 
 variable "adjustment_type" {
   default = "ChangeInCapacity"

@@ -24,7 +24,7 @@ module "scale_down_alarm_and_policy" {
 
   policy_name         = "Scale Down Policy"
   adjustment_type     = var.adjustment_type
-  scaling_adjustment  = 1
+  scaling_adjustment  = -1
   cooldown            = var.cooldown
   aws_asg_name        = module.aws_asg.aws_asg_name
 
